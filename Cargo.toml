@@ -10,4 +10,4 @@ edition = "2018"
 
 [dependencies.conv]
 git = "https://github.com/Pedrocasf/conv"
-features = ["LittleEndian"]
+features = ["BigEndian"]
