@@ -3,14 +3,14 @@
 [[package]]
 name = "conv"
 version = "0.0.1"
-source = "git+https://github.com/Pedrocasf/conv?rev=39c152#39c152910557d09de8dd1ed34886a56243d1902c"
+source = "git+https://github.com/Pedrocasf/conv?rev=e2b001#e2b00107db63cb9b0998da8ddea17733886f8824"
 
 [[package]]
 name = "inter"
 version = "0.0.1"
 dependencies = [
- "conv 0.0.1 (git+https://github.com/Pedrocasf/conv?rev=39c152)",
+ "conv 0.0.1 (git+https://github.com/Pedrocasf/conv?rev=e2b001)",
 ]
 
 [metadata]
-"checksum conv 0.0.1 (git+https://github.com/Pedrocasf/conv?rev=39c152)" = "<none>"
+"checksum conv 0.0.1 (git+https://github.com/Pedrocasf/conv?rev=e2b001)" = "<none>"
