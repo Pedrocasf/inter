@@ -10,4 +10,5 @@ edition = "2018"
 
 [dependencies.conv]
 git = "https://github.com/Pedrocasf/conv"
+rev = "8ca85c"
 features = ["LittleEndian"]
