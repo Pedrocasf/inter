@@ -14,7 +14,7 @@ pub trait Interconnect: InterconnectClone{
     }
     fn store16(&mut self, addr:usize,val:u16){
         let v = u16_to_u8(val);
-        for i in (0..v.len()).rev(){
+        for i in 0..v.len(){
             self.store8(addr+i,v[i]);
         }
     }
@@ -32,7 +32,7 @@ pub trait Interconnect: InterconnectClone{
     }
     fn store32(&mut self, addr:usize,val:u32){
         let v = u32_to_u8(val);
-        for i in (0..v.len()).rev(){
+        for i in 0..v.len(){
             self.store8(addr+i,v[i]);
         }
     }
