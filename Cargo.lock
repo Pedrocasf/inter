@@ -7,7 +7,7 @@ source = "git+https://github.com/Pedrocasf/conv?rev=e2b001#e2b00107db63cb9b0998d
 
 [[package]]
 name = "inter"
-version = "0.0.1"
+version = "0.0.2"
 dependencies = [
  "conv 0.0.1 (git+https://github.com/Pedrocasf/conv?rev=e2b001)",
 ]
